@@ -1,0 +1,21 @@
+{
+  "representation": "EnergyFlow jet constituent graph",
+  "nodes_per_graph": 5,
+  "graph_type": "complete",
+  "node_features": [
+    "z",
+    "delta_y",
+    "delta_phi",
+    "delta_R",
+    "pid"
+  ],
+  "edge_features": [
+    "delta_y_ij",
+    "delta_phi_ij",
+    "delta_R_ij"
+  ],
+  "labels": {
+    "0": "gluon",
+    "1": "quark"
+  }
+}

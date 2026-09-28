@@ -1,0 +1,33 @@
+{
+  "dataset": "EnergyFlow qg_jets",
+  "generator": "pythia",
+  "with_bc": false,
+  "num_jets": 5000,
+  "shape_X": [
+    5000,
+    139,
+    4
+  ],
+  "shape_y": [
+    5000
+  ],
+  "features": {
+    "0": "pt",
+    "1": "rapidity",
+    "2": "phi",
+    "3": "pid"
+  },
+  "labels": {
+    "0": "gluon",
+    "1": "quark"
+  },
+  "selection": {
+    "sqrt_s_TeV": 14,
+    "jet_pt_GeV": [
+      500,
+      550
+    ],
+    "abs_rapidity_max": 1.7,
+    "jet_R": 0.4
+  }
+}
